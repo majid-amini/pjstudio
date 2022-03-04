@@ -1,0 +1,92 @@
+#hero {
+  min-height: 88vh;
+  /* padding: ; */
+}
+
+.hero__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.hero__left--item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.hero__left--item h1 {
+  font-size: 7.5rem;
+  font-weight: 700;
+  color: var(--dark-color);
+  margin-bottom: 2.5rem;
+  line-height: 8rem;
+}
+
+.hero__left--item p {
+  color: var(--secondary-color);
+  font-size: 2rem;
+}
+
+.left--item__demo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__btn {
+  padding: 1.5rem 2.5rem;
+  font-size: 1.8rem;
+  margin: 0 1rem;
+}
+
+.hero__right--item {
+  opacity: 0.9rem;
+}
+.green_circle {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgb(122, 196, 11);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 6.5rem;
+  position: relative;
+}
+.total_circles {
+  position: relative;
+  right: -30rem;
+  top: -16rem;
+}
+.green_circle i {
+  transform: rotate(-80deg);
+  font-size: 3rem;
+  color: rgb(19, 19, 247);
+  
+}
+.green_circle {
+ overflow: hidden;
+}
+.yellow_circle {
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(241, 210, 69);
+  border-radius: 50%;
+  position: absolute;
+  left: -1rem;
+  top: 1.5rem;
+  z-index: 2;
+}
+.red_circle {
+  width: 2rem;
+  height: 2rem;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  left: -1rem;
+  top: 1.5rem;
+  z-index: 0;
+}

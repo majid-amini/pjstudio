@@ -1,0 +1,99 @@
+footer {
+    background-image: linear-gradient(to right,#fff,#eee,rgb(235, 235, 235));
+    
+    
+}
+.total_columns {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5rem;
+}
+.first_column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.first_column img {
+    width: 20rem;
+}
+.first_column_icons {
+    display: flex;
+    gap: 1.2rem;
+}
+.first_column_icons .icons_container i {
+    padding: 1rem 1rem;
+    font-size: 2.5rem;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+.first_column_icons .icons_container i:hover {
+    color: #7853f7;
+    border-color: #fff;
+}
+.icons_container {
+    transition: all 0.2s ease-in;
+    border-radius: 50%;
+}
+.icons_container:hover {
+    background-color: #ccc;
+    
+}
+.second_column_resources ul li,.third_column_useful_links ul li,.fourth_column_news_letter ul p,.fourth_column_news_letter form {
+    padding: 0.5rem;
+    
+}
+footer ul li a,.fourth_column_news_letter  p {
+    color: gray;
+}
+.second_column_resources .resource_header,.third_column_useful_links .useful_links,.news_letter {
+    font-weight: 500;
+    font-size: 2.2rem;
+}
+.second_column_resources a,.third_column_useful_links a{
+    transition: all 0.2s ease-in;
+}
+.second_column_resources a:hover,.third_column_useful_links a:hover {
+    color: #ccc;
+}
+.fourth_column_news_letter ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.news_letter {
+    padding: 0.5rem;
+}
+.fourth_column_news_letter form {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border: 1px solid #7853f7;
+    background-color: white;
+    border-radius: 0.8rem;
+}
+.fourth_column_news_letter form input {
+    font-size: 1.4rem;
+    outline: none;
+    border: none;
+}
+
+.fourth_column_news_letter form button {
+    padding: 1.2rem 1.4rem;
+    border: none;
+    background-color: #7853f7;
+    border-radius: 0.8rem;
+    color: white;
+    font-size: 1.4rem;
+    transition: all 0.3s ease-in;
+}
+.fourth_column_news_letter form button:hover {
+    color: #000;
+    background-color: orange;
+}
+
+
+
+

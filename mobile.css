@@ -1,0 +1,78 @@
+#mobile_app > .container {
+    min-height: 10vh;
+    margin-top: 10rem;
+    background-color: #efeffa;
+    display: flex;
+    justify-content: center;
+    padding-right: 10rem;
+    
+}
+
+.mobile_app--left img {
+    height: 50rem;
+    position: relative;
+    top: -10rem;
+    right: -12rem;
+}
+
+.mobile_app--right {
+    display: flex;
+}
+
+.mobile_app--right-total {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #fff;
+    padding: 2rem;
+}
+.mobile_app--right-total h4 {
+    font-weight: 300;
+}
+.mobile_app--right-total h4,.mobile_app--right-total p {
+    color: gray;
+}
+.mobile_app--right-total h3 {
+    font-size: 4rem;
+}
+.mobile_app--right-total h3,.mobile_app--right-total p {
+    margin-top: 1rem;
+}
+.mobile_app--icon {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+.mobile_app--icon-left, .mobile_app--icon-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.mobile_app--icon-left img,.mobile_app--icon-right img {
+    width: 6rem;
+    padding: 0.5rem;
+    background-color: aqua;
+    border-radius: 1rem;
+    transition: all 0.2s ease-in;
+}
+.mobile_app--icon-left img {
+    background-color: green;
+    z-index: 2;
+}
+.mobile_app--icon-left img:hover {
+  
+   box-shadow: 0.3rem 0.3rem 0.9rem #000;
+   background-color: #fff;
+   border: 0.1rem solid #000;
+}
+.mobile_app--icon-right img:hover {
+    box-shadow: 0.3rem 0.3rem 0.9rem #000;
+    background-color: #fff;
+    border: 0.1rem solid #000;
+}
+
+.mobile_app--icon-left span,.mobile_app--icon-right span {
+    margin-top: 1rem;
+    font-weight: bold;
+}

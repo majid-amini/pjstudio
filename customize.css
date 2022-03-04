@@ -1,0 +1,82 @@
+#customize_offers  {
+    background-image: linear-gradient(to right, #fff, #eee, rgb(229, 226, 226));
+}
+.customize_offers--total {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4rem;
+    
+}
+#customize_offers .container > h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 5rem;
+}
+.customize_offers_items {
+    display: flex;
+    justify-content: center;
+}
+.customize_offers_items .customize--left {
+    width: 50%;
+   
+}
+.customize_offers_items .customize--right {
+    width: 50%;
+}
+.customize_offers_items .customize--left b {
+    font-size: 5rem;
+    font-weight: 800;
+    color: var(--accent-color);
+}
+.customize_offers_items .customize--left > img {
+    width: 70%;
+    border-radius: 100%;
+}
+.happy_clients {
+    position: relative;
+    top: -45rem;
+    right: -45rem;
+    text-align: right;
+    width: 15rem;
+    border-radius: 1rem;
+}
+.happy_clients > img {
+    position: absolute;
+    left: 6.3rem;
+    top: -3.8rem;
+}
+.happy_clients > h3 {
+    margin-top: 1rem;
+}
+.happy_clients span {
+    background-color: green;
+    padding: 0.8rem 0.8rem 0.8rem 5rem;
+    border-radius: 0.8rem;
+    color: var(--light-color);
+    font-weight: 700;
+    
+}
+
+.customize--right .customize_right--box {
+    padding: 3rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #ccc;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.orange {
+    border-left: 0.3rem solid var(--accent-color);
+    transition: all 0.3s ease;
+}
+.orange:hover, .blue:hover, .green:hover {
+    margin-left: -2rem;
+}
+.blue {
+    border-left: 0.3rem solid blue;
+    transition: all 0.3s ease;
+}
+.green {
+    border-left: 0.3rem solid green;
+    transition: all 0.3s ease;
+}

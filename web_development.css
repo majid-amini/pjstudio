@@ -1,0 +1,72 @@
+#web_development {
+    background-color: #fdede5;
+}
+.web_development_total {
+    display: flex; 
+    justify-content: space-around;
+    
+}
+.web_development_total--left {
+    background-color: #fff;
+    width: 50%;
+    padding: 4rem;
+}
+.web_development_total--right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.web_development_total--right  img {
+    height: 33rem;
+}
+.main--left {
+    display: flex;
+    flex-direction: column;
+}
+.main--left > h4, .main--left > p {
+    color: gray;
+}
+.main--left > h3 {
+    padding: 1rem 0;
+    font-size: 4rem;
+}
+
+.social_media {
+    display: flex;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.social_media--left i, .social_media--right i {
+    font-size: 2.7rem;
+    color: #fff;
+   ;
+    padding: 2rem;
+    border-radius: 0.8rem;
+}
+.social_media--left i {
+    background-color: #404dc9;
+    transition: all 0.3s ease-in;
+}
+.social_media--left i:hover,.social_media--right i:hover {
+    box-shadow: 0.3rem 0.3rem 0.9rem #000;
+    background-color: #fff;
+    cursor: pointer;
+}
+.social_media--left i:hover {
+    color: #404dc9;
+}
+.social_media--right i {
+    background-color: #fc7034;
+    transition: all 0.3s ease-in;
+}
+.social_media--right i:hover {
+    color: #fc7034;
+}
+
+.social_media--left > h4, .social_media--right > h4 {
+    margin-top: 0.5rem;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+

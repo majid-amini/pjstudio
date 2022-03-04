@@ -1,0 +1,41 @@
+
+#sign_up {
+    background-image: linear-gradient(to right,#fff,#eee,rgb(235, 235, 235));
+}
+.container_total {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+}
+.container_total .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.container_total .left > h3 {
+    padding: 2rem 0;
+    font-size: 4rem;
+}
+.container_total .left div > button {
+    padding: 1.2rem 2rem;
+    background-color: #7853f7;
+    font-size: 1.8rem;
+    border: none;
+    outline: none;
+    border-radius: 0.8rem;
+    margin-top: 2rem;
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+.container_total .left div > button:hover {
+    background: #fff;
+  color: var(--primary-color);
+  box-shadow: inset 0 0 0 0.2rem var(--primary-color);
+}
+section {
+    padding: 0 2rem;
+}
+
+.container_total .right > img {
+    width: 45rem;
+}
