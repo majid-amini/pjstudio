@@ -1,0 +1,56 @@
+::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 0.7rem;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  #header {
+    min-height: 10vh;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .navbar__logo img {
+    height: 7rem;
+    margin-top: 1rem;
+  }
+  
+  .nav__lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav__list {
+    margin: 0 0.5rem;
+    padding: 1rem;
+  }
+  
+  .nav__link {
+    color: var(--dark-color);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .nav__link:hover {
+    color: #b29ff0;
+  }
+  

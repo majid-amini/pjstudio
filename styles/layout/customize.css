@@ -12,6 +12,7 @@
     text-align: center;
     font-weight: 700;
     font-size: 5rem;
+    padding-top: 3rem;
 }
 .customize_offers_items {
     display: flex;
